@@ -15,7 +15,7 @@
 <body>
     <aside>
         <nav>
-            <div class="listing flex-shrink-0 p-3 bg-white" style="width: 200px;">
+            <div class="listing flex-shrink-0 p-3" style="width: 200px;">
                 <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
                   <img class="bi pe-none me-2" width="30" height="24" src="/img/logo.svg"></img>
                   <span class="fs-5 fw-semibold"><span class="fw-semibold" style="color:#d71b1b">Time</span> Machine</span>
@@ -23,39 +23,27 @@
                 <ul class="list-unstyled ps-0">
                   <li class="mb-1">
                     <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
-                      Home
+                        ◯Page Parts
                     </button>
                     <div class="collapse" id="home-collapse" style="">
                       <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Overview</a></li>
-                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Updates</a></li>
-                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Reports</a></li>
+                        <li><a href="#p1" class="link-dark d-inline-flex text-decoration-none rounded">▶Початок ери веб-сторінок</a></li>
+                        <li><a href="#p2" class="link-dark d-inline-flex text-decoration-none rounded">▶Ера Flash, GIF та табличок</a></li>
+                        <li><a href="#p3" class="link-dark d-inline-flex text-decoration-none rounded">▶Створення та розвиток WEB 2.0</a></li>
+                        <li><a href="#p4" class="link-dark d-inline-flex text-decoration-none rounded">▶Мобільна ера</a></li>
+                        <li><a href="#p5" class="link-dark d-inline-flex text-decoration-none rounded">▶Скевоморфічна ера</a></li>
+                        <li><a href="#p6" class="link-dark d-inline-flex text-decoration-none rounded">▶Спрощення світу</a></li>
                       </ul>
                     </div>
                   </li>
                   <li class="mb-1">
                     <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-                      Dashboard
+                        ◯Sites
                     </button>
                     <div class="collapse" id="dashboard-collapse" style="">
                       <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Overview</a></li>
-                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Weekly</a></li>
-                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Monthly</a></li>
-                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Annually</a></li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="mb-1">
-                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-                      Orders
-                    </button>
-                    <div class="collapse" id="orders-collapse">
-                      <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">New</a></li>
-                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Processed</a></li>
-                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Shipped</a></li>
-                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Returned</a></li>
+                        <li><a href="https://koldovsky.github.io/638-team-r/" class="link-dark d-inline-flex text-decoration-none rounded">◀Anticafe Site</a></li>
+                        <li><a href="https://hellgrimm.github.io/gatsby-github-pages/" class="link-dark d-inline-flex text-decoration-none rounded">◀Game Site</a></li>
                       </ul>
                     </div>
                   </li>
@@ -66,7 +54,7 @@
     </aside>
     
     <main> 
-        <div id="Start" class="start-point card">
+        <div id="p1" class="start-point card">
             <h1>Початок ери веб-сторінок</h1>
             <p>
                 Спочатку не було нічого. І тоді Великий Вибух на ім'я Тім Бернерс-Лі створив найперший сайт на HTML - гіпертекстовій мові розмітки.<br>
@@ -82,7 +70,7 @@
             
         </div>
     
-        <div id="" class="media-era card">
+        <div id="p2" class="media-era card">
             <h1>Ера Flash, GIF та табличок</h1>
             <table>
                 <tr>
@@ -90,46 +78,124 @@
                 <td><p>У 1996-му році в оформленні веб-сторінок з'явилися анімовані GIF-зображення, строкаті фони та надто яскраві заголовки. У HTML та веб-дизайні стали активно використовуватися таблиці, за допомогою яких структурувалася вся інформація на веб-сторінці.</p></td>
             </tr>
             </table>
-            <img src="img/baby.gif" alt="baby">
-            <img src="img/blink.gif" alt="blink">
+            <div class="grid">
+                <div class="gif"><img src="img/baby.gif" alt="baby"></div>
+                <div class="gif"><img src="img/blink.gif" alt="blink"></div>
+            </div>
+            
+            
         </div>
     
-        <div id="" class="web-2 card">
+        <div id="p3" class="web-2 card">
             <h1>Створення та розвиток WEB 2.0</h1>
-            <p>Еще один качественный прорыв история развития web-дизайна совершила в 2000-е годы, когда технология CSS (Cascading Style Sheets) позволила отделить содержимое веб-страниц от их оформления. 2004–2006 годы считаются началом эры WEB-2.0.</p>
-            <img src="img/paragraph-img/" alt="W3C">
+            <div class="tab">
+                <div class="part part1">
+                    <h2>CSS</h2>
+                    <hr>
+                    <p>Еще один качественный прорыв история развития web-дизайна совершила в 2000-е годы, когда технология CSS (Cascading Style Sheets) позволила отделить содержимое веб-страниц от их оформления. 2004–2006 годы считаются началом эры WEB-2.0.</p></div>
+                <div class="part part2">
+                    <h2>Приклад коду</h2>
+                    <hr>
+                    <h4>Якщо раніше користувач прописував всі потрібні значення прямо у коді (наприклад, щоб зробити текст червоним і курсивним, його потрібно було прописувати як &lt;p style="color:red"&gt;&lt;i&gt;Деякий текст&lt;/i&gt;&lt;/p&gt;, )</h4></div>
+                <div class="part part3">
+                    <h2>В сайтах використовували:</h2>
+                    <ul>
+                        <li>плавні градієнти і м'які кольори;</li>
+                        <li>об'єкти скругленої форми;</li>
+                        <li>зеркальность, глянець, карамель в кнопках, картинках;</li>
+                        <li>паттерни на фоні.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="china">
+                <a href="https://uk.wikipedia.org/wiki/Китайська_філософія"><img src="img/china-flag.png" alt="China"></a>
+            </div>
         </div>
         
-        <div id="" class="">
-            
+        <div id="p4" class="mobile card">
+
+            <h1>Мобільна ера</h1>
+            <p>Для демонстрації роботи сайту відносно розміру екрану, я використав блок сайту, створеного мною раніше.</p>
+            <div class="button-block">
+                <a href="https://koldovsky.github.io/638-team-r/" class="inv-button">Переглянути сайт</a>
+            </div>
+            <div id="pricing" class="pricing">
+                <div class="pricing-container">
+                    <div class="container">
+                        <div class="row">
+                        
+                            <div class="cal">
+                                <div class="card shadow-sm">
+                                    <h3>Day Pass</h3>
+                                    <div class="pricing-img" >
+                                     <img src="img/pricing/day.svg" alt="Day Pass">
+                                    </div>
+                                    <h2>$25</h2>
+                                    <small class="text-muted">per day</small>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <button class="inv-button"><a href="#Form" >Purchase</a></button>
+                                </div>
+                            </div>
+    
+                            <div class="cal">
+                                <div class="card shadow-sm">
+                                    <h3>Nightly Pass</h3>
+                                    <div class="pricing-img" >
+                                     <img src="img/pricing/night.svg" alt="Nightly Pass">
+                                    </div>
+                                    <h2>$15</h2>
+                                    <small class="text-muted">per night</small>
+                                    <p class="card-text">The Nightly Pass provides full access during our night-time hours. Night access at FreeSpace anti-cafe is fully automated, and so customers will receive a key fob.</p>
+                                    <button class="inv-button"><a href="#Form" >Purchase</a></button>
+                                </div>
+                            </div>
+    
+                            <div class="cal">
+                                <div class="card shadow-sm">
+                                    <h3>7-Day Pass</h3>
+                                    <div class="pricing-img" >
+                                     <img src="img/pricing/7day.svg" alt="7-Day Pass">
+                                    </div>
+                                    <h2>$125</h2>
+                                    <small class="text-muted">one week</small>
+                                    <p class="card-text">With the 7-Day Pass customers can pick and choose which days they want to come in during daily hours. You get full access to the space and equipment for 7 days.</p>
+                                    <button class="inv-button"><a href="#Form" >Purchase</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         
-        <div id="" class="">
-
+        <div id="p5" class="skevo card">
+            <div class="inner">
+                <h1>Скевоморфічна ера</h1>
+                <p>У 2010 році веб-дизайнери продовжують використовувати CSS і HTML, однак все частіше починають застосовувати нову концепцію під назвою «адаптивний веб-дизайн», яка передбачає відображення однакового вмісту за допомогою різних форм макетів. При цьому розуміння «адаптивності» у клієнтів та розробників зазвичай суттєво відрізняється.</p><br>
+                <p>Клієнт виходить з думки, що якщо сайт має адаптивний дизайн, то він «...добре працюватиме на телефоні». Розробник же, в першу чергу, думає про кількість начерків макета, смислове навантаження елементів, швидкість завантаження контенту, візуальні способи подання інформації, пріоритет десктопної або мобільної версії і т.д.</p><br>
+                <p>У 2011-му році у веб-дизайнерів нарешті починає з'являтися художній смак, і на зміну «карамельній» моді приходить натуралістичний дизайн, або скевоморфізм.</p>
+                <h3>Характерними рисами скевоморфізму можна назвати "шкіряний" фон програми-календаря у iOS або тривимірну іконку "сміттєвого кошика".</h3>
+                <div class="icons">
+                    <img src="img/bin.png" alt="Bin">
+                    <img class="right" src="img/bookshelf.jpg" alt="Bookshelf">
+                </div>
+            </div>
         </div>
         
-        <div id="" class="">
-            
-        </div>
-
-        <div id="" class="">
-            
-        </div>
-
-        <div id="" class="">
-            
-        </div> 
-
-        <div id="" class="">
-            
-        </div>     
-                
-        <div id="" class="">
-            
-        </div>
-        
-        <div id="" class="">
-            
+        <div id="p6" class="simple card">
+            <div class="inner">
+                <div class="head">
+                    <h1>Спрощення світу</h1>
+                </div>
+                <div class="main-page">
+                    <p>З 12 року починається ера спрощення. Скевоморфізм став лайливим словом, візуальні елементи були максимально спрощені, пріоритет віддали вмісту. Так виник термін «плоский дизайн».</p><br>
+                    <p>Глянцеві тривимірні кнопки були замінені плоскими векторними іконками та веб-шрифтами (прямо як на світанку веб-дизайну в 1990-ті), підтверджуючи вираз «Все нове – це добре забуте старе». У тренді також яскраві кольори, цікава друкарня, великі фонові зображення та навіть фонове відео.</p><br>
+                    <h4>Для демонстрації я використаю свій сайт, який зараз знаходиться в розробці.</h4>
+                    <div class="button-block">
+                        <a href="https://hellgrimm.github.io/gatsby-github-pages/" class="button">Переглянути сайт</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- <div id="Form" class="form">
