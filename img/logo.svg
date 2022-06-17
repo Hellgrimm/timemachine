@@ -1,1 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 823 563.47"><defs><style>.b{fill:#e91300;}</style></defs><path d="M559,1V559H1V1H559m1-1H0V560H560V0h0Z"/><path class="b" d="M93.48,92h180.35v34.1H93.48v-34.1Zm72.25,20.92h35.86v234.67h-35.86V112.92Z"/><path d="M429.72,210.5h33.57v255.59h-34.98v-191.43l1.76,11.25-62.93,144.67h-24.96l-62.93-141.15,1.76-14.77v191.43h-34.98V210.5h33.57l75.06,168.75,75.06-168.75Z"/><text/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="a" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 560 559" style="enable-background:new 0 0 560 559;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E91300;}
+</style>
+<path d="M559,1v558H1V1H559 M560,0H0v560h560V0L560,0z"/>
+<path class="st0" d="M93.5,92h180.4v34.1H93.5V92z M165.7,112.9h35.9v234.7h-35.9V112.9z"/>
+<path d="M429.7,210.5h33.6v255.6h-35V274.7l1.8,11.2l-62.9,144.7h-25l-62.9-141.1l1.8-14.8v191.4h-35V210.5h33.6l75.1,168.8
+	L429.7,210.5L429.7,210.5z"/>
+</svg>
